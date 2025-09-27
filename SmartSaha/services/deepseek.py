@@ -48,3 +48,4 @@ class DeepSeekClient:
             return data["choices"][0]["message"]["content"]
         except (KeyError, IndexError):
             return "Aucune réponse reçue du modèle."
+            
